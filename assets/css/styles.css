@@ -670,6 +670,10 @@ img{
   color: var(--first-color-lighten);
 }
 
+.projects__span2{
+  color: rgb(20, 158, 20)
+}
+
 .projects__img:hover .projects__data{
   bottom: 0;
 }
