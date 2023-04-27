@@ -887,7 +887,7 @@ img{
   }
 
   .home__data{
-    padding-top: 70px;
+    padding-top: 10px;
   }
 
   .home__title{
@@ -999,7 +999,6 @@ img{
 }
 
 .experience__data-head {
-  border-bottom: 1px solid #0a243f;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -1099,6 +1098,36 @@ img{
     padding-left: 3rem;
   }
 
+  /* ===== Experience =====*/
+
+.experience__data{
+  width: 80%;
+}
+
+.experience__data-head {
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  justify-content: none;
+}
+
+.experience__data-img {
+  margin: auto;
+}
+
+.experience__project-name{
+  font-size: 1.4rem;
+  padding-top: 10px;
+}
+
+.experience__title{
+  padding-top: 17px;
+  padding-right: 10px;
+  font-size: 0.9rem;
+}
+
+/* ===== Experience =====*/
+
   .footer{
     background: none;
   }
@@ -1140,6 +1169,63 @@ img{
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* ===== Experience =====*/
+
+.experience__data{
+  border-radius: 3px;
+  box-shadow: #0a243f 0.5px 0.5px 5px 0.1px;
+  width: 50%;
+  margin: auto;
+}
+
+.experience__data-head {
+  border-bottom: 1px solid #0a243f;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.experience__project-name{
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+  padding-top: 17px;
+  color: #0a243f;
+}
+
+.experience__title{
+  padding-top: 19px;
+  padding-right: 15px;
+  font-size: 1rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.experience__data-img{
+  width: 60px;
+  margin: 5px;
+}
+
+.experience__description{
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+.experience__description li {
+  width: 100%;
+}
+
+.experience__footer{
+  padding: 10px;
+}
+
+.experience__footer p {
+  font-family:  var(--body-font);
+  font-weight: lighter;
+  color: #0a243f79;
+}
+
+/* ===== Experience =====*/
 
   .certifications__container,
   .projects__container{
